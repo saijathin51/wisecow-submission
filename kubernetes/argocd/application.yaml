@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
+  name: wisecow
+  namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: wisecow=saijathin/wisecow
     argocd-image-updater.argoproj.io/write-back-method: git
-    argocd-image-updater.argoproj.io/wisecow.update-strategy: newest-build
-    name: wisecowg
-    namespace: argocd
-  spec:
+    argocd-image-updater.argoproj.io/wisecow.update-strategy: latest
+spec:
   project: default
   source:
     repoURL: https://github.com/saijathin51/wisecow-submission
