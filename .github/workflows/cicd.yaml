@@ -6,9 +6,10 @@ on:
     paths-ignore:
       - 'kubernetes/*'
 
+
 jobs:
 
-  build:
+  Buildimage-and-Push:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
