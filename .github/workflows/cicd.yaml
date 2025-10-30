@@ -10,9 +10,6 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-  push:
-    runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -32,5 +29,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/mywebsite:${{github.run_id}}
+        tags: ${{ secrets.DOCKER_USERNAME }}/wisecow:${{github.run_id}}
 
