@@ -39,5 +39,5 @@ This phase secures the application endpoint with HTTPS.
 
 This phase automates the final step, ensuring new images are rolled out without manual intervention.
 ![Argocd](/project-demo/argocd-ui1.png)
-![Argocd](/project-demo/iamge-updater.png)
+![image](/project-demo/image-updater.png)
 
