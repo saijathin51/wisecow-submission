@@ -1,15 +1,16 @@
 ## 📸 ScreenShots
 
-### CI/CD Workflow
-![Build Success](project-demo/ci-build-success.png)
+### CI/CD Workflow : Success
+![Build Success](project-demo/githubactions.png)
 
-### DockerHub Image
-![Docker Image](project-demo/dockerhub-image.png)
+### Argocd  : Success
+![Argocd](project-demo/argocd-ui1.png)
 
-### ArgoCD Sync
-![ArgoCD Sync](project-demo/argocd-sync.png)
+### Curl output  : Success
+![Curl output](project-demo/curl-command.png)
+![Curl output](project-demo/curl-command2.png)
 
-### Application Deployment
-![App Deployed](project-demo/deployed-pod.png)
+### Application Deployment  : Success
+![tls Certificate](project-demo/CertificateViewer.png)
 
 

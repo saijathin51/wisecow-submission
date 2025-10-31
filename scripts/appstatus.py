@@ -3,15 +3,12 @@ import requests
 w = (input("give the website :"))
 x = requests.get(w)
 # x = requests.get("https://accuknox.com")
-
-
-print(f'x')
 print(f"Status Code: {x.status_code}")
 
 if x.status_code == 200:
-    print(" ✅ website is healthy")
+    print("✅ website is healthy")
 else:
-    print( "⚠️not healthy")
+    print("⚠️not healthy")
 
 #--------------------------------------------
 # #!/bin/bash
