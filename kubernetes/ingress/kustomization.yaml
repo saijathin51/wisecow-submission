@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: ingress-nginx
 resources:
   - https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
+  - namespace.yaml

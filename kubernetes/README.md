@@ -24,7 +24,12 @@ This phase covers deploying the foundational Kubernetes resources
 kubectl kustomize kubernetes/certmanager | kubectl apply -f -
 kubectl kustomize kubernetes/ingress | kubectl apply -f -
 kubectl kustomize kubernetes/manifests | kubectl apply -f -
+
+wait for few minutes to get pods up and running with each command.
+
 kubectl apply -f Kubernetes/argocd/application.yaml
+
+
  ```
 ---
 
